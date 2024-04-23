@@ -1,4 +1,4 @@
-LIBRARY sppcs.dll
+LIBRARY sppc_o.dll
 EXPORTS
 SLGetLicensingStatusInformation
 SLGetProductSkuInformation

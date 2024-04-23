@@ -1,12 +1,6 @@
-#ifdef PLUS_BUILD
-    #define PRODNAME "ohook+"
-#else
-    #define PRODNAME "ohook"
-#endif
-
 1 VERSIONINFO
-FILEVERSION    0,5,0,0
-PRODUCTVERSION 0,5,0,0
+FILEVERSION    0,6,0,0
+PRODUCTVERSION 0,6,0,0
 FILEOS 0x40004L
 FILETYPE 0x2L
 BEGIN
@@ -14,14 +8,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4"
         BEGIN
-            VALUE "CompanyName",      "Anomalous Software Deterioration Corporation"
-            VALUE "FileDescription",  PRODNAME " SPPC"
-            VALUE "FileVersion",      "0.5.0.0"
+            VALUE "CompanyName",      "ASD Corp & SmilerRyan"
+            VALUE "FileDescription",  "office-hook"
+            VALUE "FileVersion",      "0.6.0.0"
             VALUE "InternalName",     "sppc"
-            VALUE "LegalCopyright",   "© 2024 Anomalous Software Deterioration Corporation"
+            VALUE "LegalCopyright",   "© 2024 ASD Corp & SmilerRyan"
             VALUE "OriginalFilename", "sppc.dll"
-            VALUE "ProductName",      PRODNAME
-            VALUE "ProductVersion",   "0.5.0.0"
+            VALUE "ProductName",      "office-hook"
+            VALUE "ProductVersion",   "0.6.0.0"
         END
     END
 
